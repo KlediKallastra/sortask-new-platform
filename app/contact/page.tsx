@@ -19,7 +19,7 @@ export default function Contact() {
   const refs = useRef<(HTMLDivElement | null)[]>([])
   const heroTitleRef = useRef<HTMLHeadingElement>(null)
   const heroDescRef = useRef<HTMLParagraphElement>(null)
-  const t = useTranslations().t
+  const { t, locale } = useTranslations()
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -52,12 +52,33 @@ export default function Contact() {
     e.preventDefault()
     setIsSubmitting(true)
 
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false)
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          language: locale, // Include current language
+        }),
+      })
+
+      const data = await response.json()
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to send message')
+      }
+
+      // Success
       alert(t('contactPage.form.successMessage'))
       setFormData({ name: '', company: '', email: '', phone: '', message: '' })
-    }, 1000)
+    } catch (error) {
+      console.error('Error submitting form:', error)
+      alert(error instanceof Error ? error.message : 'Failed to send message. Please try again.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (

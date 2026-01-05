@@ -32,48 +32,48 @@ export default function Solutions() {
   const services = [
     {
       icon: Layout,
-      title: 'Modern Web Apps',
+      title: 'Business Websites',
       description:
-        'High-performance, reactive web applications built on Next.js and React. Stunning visuals meets rock-solid architecture.',
-      features: ['3D Interactions', 'Headless CMS'],
+        'Beautiful, fast websites that work perfectly on any device. Update content easily without technical knowledge.',
+      features: ['Mobile-friendly design', 'Easy content updates'],
       delay: '',
     },
     {
       icon: Bot,
-      title: 'Autonomous Agents',
+      title: 'AI Assistants',
       description:
-        'AI agents that plan, execute, and iterate. From research assistants to automated outreach bots that work while you sleep.',
-      features: ['Multi-Step Reasoning', 'Tool Usage'],
+        'Smart AI helpers that handle tasks automatically. They can research, send emails, schedule meetings, and work around the clock.',
+      features: ['Works 24/7', 'Saves time and money'],
       delay: 'delay-100',
       featured: true,
     },
     {
       icon: Mic,
-      title: 'Voice AI',
+      title: 'Voice Assistants',
       description:
-        'Human-like voice assistants for customer support and sales. Low latency, emotional intelligence, and seamless integration.',
-      features: ['Real-time Transcription', 'Natural Synthesis'],
+        'AI phone assistants that sound natural and handle customer calls. Answer questions, schedule appointments, and provide support.',
+      features: ['Natural conversations', 'Available 24/7'],
       delay: 'delay-200',
     },
     {
       icon: Workflow,
-      title: 'AI Automation',
+      title: 'Workflow Automation',
       description:
-        'End-to-end workflow automation connecting your favorite apps. Eliminate repetitive tasks and reduce operational costs.',
+        'Connect your apps and automate daily tasks. No more manual data entry or switching between tools.',
       delay: '',
     },
     {
       icon: MessageSquare,
-      title: 'Custom Chatbots',
+      title: 'Smart Chatbots',
       description:
-        'RAG-powered chatbots trained on your company data. Instant answers for employees and customers, 24/7.',
+        'Chatbots that know your business. Answer customer questions instantly using your company information.',
       delay: 'delay-100',
     },
     {
       icon: Database,
-      title: 'Data Engineering',
+      title: 'Data Organization',
       description:
-        'Structuring your unstructured data. We build the pipelines that feed your AI models with clean, relevant information.',
+        'Turn messy files and documents into organized, searchable information. Make your data work for you.',
       delay: 'delay-200',
     },
   ]
@@ -88,11 +88,11 @@ export default function Solutions() {
           className="text-center max-w-2xl mx-auto mb-16 reveal"
         >
           <h2 className="font-display text-3xl md:text-4xl font-bold mb-4">
-            Engineered for Impact
+            Solutions That Work
           </h2>
           <p className="text-tech-dim">
-            We don&apos;t just write code. We deploy intelligent systems that scale, speak, and
-            solve complex problems autonomously.
+            We build AI tools that save you time, reduce costs, and help your business grow. No
+            technical jargon, just results.
           </p>
         </div>
 

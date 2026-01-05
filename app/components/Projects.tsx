@@ -2,10 +2,13 @@
 
 import { useEffect, useRef } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
+import { useTranslations } from '../../lib/i18n'
 
 export default function Projects() {
-  const refs = useRef<(HTMLDivElement | null)[]>([])
+  const refs = useRef<(HTMLElement | null)[]>([])
+  const t = useTranslations().t
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -32,22 +35,24 @@ export default function Projects() {
 
   const projects = [
     {
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
-      category: 'FinTech',
+      image: '/assets/website-examples/Sorsend.png',
+      category: 'SaaS Platform',
       categoryColor: 'text-tech-accent',
-      title: 'Financial Data Agent',
+      title: 'Sorsend',
       description:
-        'An autonomous agent that processes invoices and reconciles bank statements automatically.',
+        'Modern SaaS platform with intelligent data processing and AI-powered insights for businesses.',
       delay: '',
+      link: 'https://sorsend.com',
     },
     {
-      image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=1965&auto=format&fit=crop',
-      category: 'Healthcare',
+      image: '/assets/website-examples/AI Deluxe Homes.png',
+      category: 'Real Estate',
       categoryColor: 'text-tech-secondary',
-      title: 'Patient Triage Voice Bot',
+      title: 'AI Deluxe Homes',
       description:
-        'Voice AI that handles appointment scheduling and basic symptom checking with 99% uptime.',
+        'Premium real estate platform with AI-powered property matching and virtual tours.',
       delay: 'delay-100',
+      link: 'https://ai-deluxe.homes',
     },
   ]
 
@@ -60,18 +65,24 @@ export default function Projects() {
         className="flex flex-col md:flex-row justify-between items-end mb-12 reveal"
       >
         <div>
-          <h2 className="font-display text-3xl font-bold mb-2">Recent Deployments</h2>
-          <p className="text-tech-dim">See our technology in action.</p>
+          <h2 className="font-display text-3xl font-bold mb-2">{t('projects.title')}</h2>
+          <p className="text-tech-dim">{t('projects.subtitle')}</p>
         </div>
-        <button className="hidden md:flex items-center gap-2 text-tech-primary hover:text-white transition-colors">
-          View All Projects <ArrowRight className="w-4 h-4" />
-        </button>
+        <Link
+          href="/portfolio"
+          className="hidden md:flex items-center gap-2 text-tech-primary hover:text-white transition-colors"
+        >
+          {t('projects.cta')} <ArrowRight className="w-4 h-4" />
+        </Link>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
-          <div
+          <Link
             key={index}
+            href={project.link || '/portfolio'}
+            target={project.link ? '_blank' : undefined}
+            rel={project.link ? 'noopener noreferrer' : undefined}
             ref={(el) => {
               refs.current[index + 1] = el
             }}
@@ -100,7 +111,7 @@ export default function Projects() {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

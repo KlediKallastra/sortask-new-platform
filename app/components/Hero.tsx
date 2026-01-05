@@ -4,8 +4,10 @@ import { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import { ArrowDown, CheckCircle, Cpu } from 'lucide-react'
 import Link from 'next/link'
+import { useTranslations } from '../../lib/i18n'
 
 export default function Hero() {
+  const t = useTranslations().t
   const revealRef = useRef<HTMLDivElement>(null)
   const revealRef2 = useRef<HTMLDivElement>(null)
 
@@ -52,31 +54,30 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-tech-accent opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-tech-accent"></span>
             </span>
-            Next-Gen AI Integration
+            {t('hero.badge')}
           </div>
 
           <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.1] mb-6">
-            We Build <br />
-            <span className="text-gradient">Digital Intelligence.</span>
+            {t('hero.title')} <br />
+            <span className="text-gradient">{t('hero.titleHighlight')}</span>
           </h1>
 
           <p className="text-tech-dim text-lg md:text-xl leading-relaxed mb-8 max-w-lg">
-            Transforming businesses with autonomous agents, voice AI, and custom software
-            architectures. The future isn&apos;t coming—we&apos;re coding it.
+            {t('hero.description')}
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href="#contact"
+              href="/contact"
               className="px-8 py-4 rounded-lg bg-gradient-to-r from-tech-primary to-tech-secondary text-white font-semibold hover:shadow-lg hover:shadow-tech-primary/25 transition-all transform hover:-translate-y-1 text-center"
             >
-              Start Automation
+              {t('hero.ctaStart')}
             </Link>
             <Link
-              href="#solutions"
+              href="/solutions"
               className="px-8 py-4 rounded-lg border border-white/10 bg-white/5 text-white font-medium hover:bg-white/10 transition-all flex items-center justify-center gap-2"
             >
-              Explore Services <ArrowDown className="w-4 h-4" />
+              {t('hero.ctaExplore')} <ArrowDown className="w-4 h-4" />
             </Link>
           </div>
         </div>
@@ -99,8 +100,8 @@ export default function Hero() {
                   <CheckCircle className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-xs text-tech-dim">Agent Status</p>
-                  <p className="text-sm font-bold">Online & Active</p>
+                  <p className="text-xs text-tech-dim">{t('hero.agentStatus')}</p>
+                  <p className="text-sm font-bold">{t('hero.onlineActive')}</p>
                 </div>
               </div>
             </div>
@@ -111,8 +112,8 @@ export default function Hero() {
                   <Cpu className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-xs text-tech-dim">Optimization</p>
-                  <p className="text-sm font-bold">+420% Efficiency</p>
+                  <p className="text-xs text-tech-dim">{t('hero.optimization')}</p>
+                  <p className="text-sm font-bold">{t('hero.efficiency')}</p>
                 </div>
               </div>
             </div>

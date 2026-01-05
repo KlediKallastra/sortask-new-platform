@@ -1,9 +1,11 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
+import { useTranslations } from '../../lib/i18n'
 
 export default function Contact() {
   const ref = useRef<HTMLDivElement>(null)
+  const t = useTranslations().t
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -34,29 +36,35 @@ export default function Contact() {
 
         <div className="relative z-10 max-w-2xl mx-auto">
           <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
-            Ready to upgrade your workflow?
+            {t('contact.title')}
           </h2>
           <p className="text-tech-dim text-lg mb-10">
-            Schedule a free consultation. We&apos;ll analyze your current stack and identify
-            high-impact opportunities for AI automation.
+            {t('contact.subtitle')}
           </p>
 
-          <form className="space-y-4 text-left max-w-md mx-auto">
+          <form
+            onSubmit={(e) => {
+              e.preventDefault()
+              window.location.href = '/contact'
+            }}
+            className="space-y-4 text-left max-w-md mx-auto"
+          >
             <div>
               <input
                 type="email"
-                placeholder="Enter your work email"
+                placeholder={t('contact.emailPlaceholder')}
+                required
                 className="w-full bg-tech-bg/50 border border-white/10 rounded-lg px-6 py-4 text-white placeholder-tech-dim focus:outline-none focus:border-tech-primary transition-colors"
               />
             </div>
             <button
               type="submit"
-              className="w-full bg-white text-tech-bg font-bold py-4 rounded-lg hover:bg-tech-accent transition-colors"
+              className="w-full bg-white text-tech-bg font-bold py-4 rounded-lg hover:bg-tech-accent hover:text-white transition-colors"
             >
-              Book Strategy Call
+              {t('contact.cta')}
             </button>
             <p className="text-xs text-tech-dim text-center mt-4">
-              No commitment required. 14-day implementation guarantee.
+              {t('contact.disclaimer')}
             </p>
           </form>
         </div>

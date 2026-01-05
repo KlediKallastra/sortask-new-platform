@@ -1,0 +1,317 @@
+{
+  "common": {
+    "loading": "Loading..."
+  },
+  "nav": {
+    "solutions": "Solutions",
+    "portfolio": "Portfolio",
+    "pricing": "Pricing",
+    "about": "About",
+    "faqs": "FAQs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Next-Gen AI Integration",
+    "title": "We Build",
+    "titleHighlight": "Digital Intelligence.",
+    "description": "Transforming businesses with autonomous agents, voice AI, and custom software architectures. The future isn't coming, we're coding it.",
+    "ctaStart": "Start Automation",
+    "ctaExplore": "Explore Solutions",
+    "agentStatus": "Agent Status",
+    "onlineActive": "Online & Active",
+    "optimization": "Optimization",
+    "efficiency": "+420% Efficiency"
+  },
+  "features": {
+    "title": "Why Choose Sortask?",
+    "subtitle": "We combine cutting-edge AI technology with proven business strategies to deliver solutions that work.",
+    "lightningFast": {
+      "title": "Lightning Fast",
+      "description": "Deploy AI solutions in weeks, not months. Our streamlined process gets you from concept to production faster."
+    },
+    "enterpriseGrade": {
+      "title": "Enterprise Grade",
+      "description": "Built with security and scalability in mind. Your AI infrastructure grows with your business needs."
+    },
+    "provenResults": {
+      "title": "Proven Results",
+      "description": "Average 10x ROI within the first year. Our solutions deliver measurable business impact from day one."
+    },
+    "expertSupport": {
+      "title": "Expert Support",
+      "description": "Dedicated team of AI engineers and consultants. We're with you every step of the way."
+    },
+    "cta": "Explore All Solutions"
+  },
+  "stats": {
+    "accuracyRate": "Accuracy Rate",
+    "automatedUptime": "Automated Uptime",
+    "roiAverage": "ROI Average"
+  },
+  "projects": {
+    "title": "Recent Deployments",
+    "subtitle": "See our technology in action.",
+    "cta": "View All Projects"
+  },
+  "testimonials": {
+    "quote": "The future of AI is not about replacing humans, but augmenting them. It's about creating intelligent systems that work alongside people to solve complex problems and unlock new possibilities.",
+    "author": "Fei-Fei Li",
+    "role": "Co-Director of Stanford's Human-Centered AI Institute"
+  },
+  "contact": {
+    "title": "Ready to upgrade your workflow?",
+    "subtitle": "Schedule a free consultation. We'll analyze your current stack and identify high-impact opportunities for AI automation.",
+    "emailPlaceholder": "Enter your work email",
+    "cta": "Book Strategy Call",
+    "disclaimer": "No commitment required. 14-day implementation guarantee."
+  },
+  "footer": {
+    "description": "Building the cognitive layer for modern enterprises. Based in Zurich, operating globally.",
+    "platform": "Platform",
+    "company": "Company",
+    "connect": "Connect",
+    "copyright": "© 2024 Sortask GmbH. All rights reserved.",
+    "cookiePolicy": "Cookie Policy",
+    "imprint": "Imprint",
+    "aiAgents": "AI Agents",
+    "voiceIntegration": "Voice Integration",
+    "workflowAutomation": "Workflow Automation",
+    "about": "About",
+    "portfolio": "Portfolio"
+  },
+  "solutions": {
+    "hero": {
+      "title": "Our",
+      "titleHighlight": "Solutions",
+      "subtitle": "We don't just write code. We deploy intelligent systems that scale, speak, and solve complex problems autonomously."
+    },
+    "businessWebsites": {
+      "title": "Business Websites",
+      "description": "Beautiful, fast websites that work perfectly on any device. Update content easily without technical knowledge.",
+      "features": ["Mobile-friendly design", "Easy content updates", "Fast loading speeds", "SEO optimized"]
+    },
+    "aiAssistants": {
+      "title": "AI Assistants",
+      "description": "Smart AI helpers that handle tasks automatically. They can research, send emails, schedule meetings, and work around the clock.",
+      "features": ["Works 24/7", "Handles repetitive tasks", "Learns and improves", "Saves time and money"]
+    },
+    "voiceAssistants": {
+      "title": "Voice Assistants",
+      "description": "AI phone assistants that sound natural and handle customer calls. Answer questions, schedule appointments, and provide support.",
+      "features": ["Natural conversations", "Instant responses", "Available 24/7", "Reduces call wait times"]
+    },
+    "workflowAutomation": {
+      "title": "Workflow Automation",
+      "description": "Connect your apps and automate daily tasks. No more manual data entry or switching between tools.",
+      "features": ["Connects all your apps", "Automates repetitive work", "Saves hours daily", "Reduces errors"]
+    },
+    "smartChatbots": {
+      "title": "Smart Chatbots",
+      "description": "Chatbots that know your business. Answer customer questions instantly using your company information.",
+      "features": ["Knows your business", "Answers instantly", "Available 24/7", "Speaks multiple languages"]
+    },
+    "dataOrganization": {
+      "title": "Data Organization",
+      "description": "Turn messy files and documents into organized, searchable information. Make your data work for you.",
+      "features": ["Organizes your files", "Makes data searchable", "Finds information fast", "Better decision making"]
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Consultation",
+        "description": "We analyze your needs and identify opportunities"
+      },
+      "step2": {
+        "title": "Design",
+        "description": "We design a custom solution tailored to your business"
+      },
+      "step3": {
+        "title": "Development",
+        "description": "We build and test the solution with your team"
+      },
+      "step4": {
+        "title": "Deployment",
+        "description": "We deploy and monitor the solution continuously"
+      }
+    },
+    "cta": "Get Started"
+  },
+  "about": {
+    "hero": {
+      "title": "About",
+      "titleHighlight": "Sortask",
+      "subtitle": "Building the cognitive layer for modern enterprises. We transform businesses with autonomous agents, voice AI, and custom software architectures."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "p1": "At Sortask, we believe that artificial intelligence should augment human capability, not replace it. Our mission is to build intelligent systems that empower businesses to operate more efficiently, make better decisions, and scale without limits.",
+      "p2": "Based in Zurich, we operate globally, bringing cutting-edge AI solutions to enterprises worldwide. We specialize in creating autonomous agents, voice AI systems, and custom software architectures that transform how businesses work."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To become the leading provider of AI-powered automation solutions, enabling every enterprise to harness the power of artificial intelligence seamlessly and effectively."
+    },
+    "values": {
+      "speed": {
+        "title": "Speed & Efficiency",
+        "description": "We deliver fast, efficient AI solutions that integrate seamlessly into your workflow, reducing operational overhead."
+      },
+      "quality": {
+        "title": "Quality First",
+        "description": "Every solution is built with precision and care, ensuring reliability and performance that exceeds expectations."
+      },
+      "transparency": {
+        "title": "Transparency",
+        "description": "Clear communication, honest pricing, and transparent processes. No hidden fees, no surprises."
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "ejon": {
+        "name": "Ejon Duka",
+        "role": "Co-Founder & CEO"
+      },
+      "kledi": {
+        "name": "Kledi Kallastra",
+        "role": "Co-Founder & CTO"
+      },
+      "avdyl": {
+        "name": "Avdyl Zogaj",
+        "role": "Co-Founder & COO"
+      }
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Our",
+      "titleHighlight": "Portfolio",
+      "subtitle": "Real projects. Real results. Our top-rated projects that showcase our expertise and deliver measurable results."
+    },
+    "technologies": {
+      "title": "Technologies & Capabilities",
+      "subtitle": "We use modern tools and technologies to build fast, scalable, and reliable solutions for our clients.",
+      "modernDevelopment": {
+        "title": "Modern Development",
+        "description": "Next.js, React, TypeScript, and cutting-edge frameworks"
+      },
+      "aiIntegration": {
+        "title": "AI Integration",
+        "description": "OpenAI, custom AI models, and intelligent automation"
+      },
+      "responsiveDesign": {
+        "title": "Responsive Design",
+        "description": "Mobile-first approach that works on all devices"
+      },
+      "securityPerformance": {
+        "title": "Security & Performance",
+        "description": "Enterprise-grade security and optimized performance"
+      }
+    },
+    "cta": {
+      "title": "Ready to see similar results for your business?",
+      "subtitle": "Let's discuss how we can help transform your online presence and drive real business growth.",
+      "button": "Start Your Project"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Pricing",
+      "subtitle": "Every project is unique. We offer custom solutions tailored to your specific needs, goals, and budget."
+    },
+    "card": {
+      "badge": "Custom Pricing",
+      "description": "We offer a wide range of services including websites, AI assistants, chatbots, automation, and more. Each project is different, so we create a custom solution that fits your exact needs.",
+      "includedTitle": "What's Typically Included:",
+      "features": [
+        "Custom solution tailored to your needs",
+        "Modern, responsive design",
+        "AI integration and automation",
+        "SEO optimization",
+        "Fast loading and performance",
+        "Mobile-friendly across all devices",
+        "Security and data protection",
+        "Ongoing support and maintenance",
+        "Training and documentation",
+        "Regular updates and improvements"
+      ],
+      "ctaText": "Ready to get started? Contact us for a personalized quote based on your specific requirements.",
+      "ctaButton": "Get Your Custom Quote"
+    },
+    "info": {
+      "title": "Why Custom Pricing?",
+      "description": "We don't believe in one-size-fits-all solutions. Whether you need a simple website, complex AI automation, or a combination of services, we work with you to create a package that delivers maximum value for your investment."
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Get in",
+      "titleHighlight": "Touch",
+      "subtitle": "Ready to transform your business with AI? Let's discuss how we can help."
+    },
+    "form": {
+      "name": "Name *",
+      "company": "Company",
+      "email": "Email *",
+      "phone": "Phone",
+      "message": "Message *",
+      "namePlaceholder": "Your name",
+      "companyPlaceholder": "Your company",
+      "emailPlaceholder": "your@email.com",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "messagePlaceholder": "Tell us about your project...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Thank you for your message! We will get back to you soon."
+    },
+    "sidebar": {
+      "quickCall": {
+        "title": "Quick Call",
+        "description": "Schedule a 15-minute consultation call to discuss your AI automation needs.",
+        "button": "Schedule Call"
+      },
+      "getInTouch": {
+        "title": "Get in Touch",
+        "email": "Email",
+        "phone": "Phone"
+      }
+    }
+  },
+  "faqs": {
+    "hero": {
+      "title": "Frequently Asked",
+      "titleHighlight": "Questions",
+      "subtitle": "Find answers to common questions about our AI solutions."
+    },
+    "items": [
+      {
+        "question": "How long does it take to implement an AI solution?",
+        "answer": "Implementation time varies based on complexity. Simple automation workflows can be deployed in 2-4 weeks, while comprehensive AI agent systems typically take 6-12 weeks. We provide detailed timelines during our initial consultation."
+      },
+      {
+        "question": "Do you provide ongoing support and maintenance?",
+        "answer": "Yes, we offer comprehensive support packages including monitoring, updates, and maintenance. Our Enterprise plan includes 24/7 monitoring and priority support to ensure your AI solutions run smoothly."
+      },
+      {
+        "question": "Can AI agents integrate with our existing systems?",
+        "answer": "Absolutely. Our AI agents are designed to integrate seamlessly with popular business tools and APIs. We can build custom integrations for proprietary systems as well."
+      },
+      {
+        "question": "How secure is the data processed by your AI solutions?",
+        "answer": "Security is our top priority. All data is encrypted in transit and at rest. We comply with GDPR and other data protection regulations. We can also deploy solutions on-premises if required."
+      },
+      {
+        "question": "What kind of ROI can we expect?",
+        "answer": "Our clients typically see 5-10x ROI within the first year. This comes from reduced operational costs, increased efficiency, and improved customer satisfaction. We provide detailed ROI projections during the consultation phase."
+      },
+      {
+        "question": "Do you offer training for our team?",
+        "answer": "Yes, we provide comprehensive training and documentation to ensure your team can effectively use and manage the AI solutions. Training is included in our Enterprise plan."
+      }
+    ],
+    "cta": {
+      "title": "Still Have Questions?",
+      "description": "Can't find what you're looking for? Get in touch with our team.",
+      "button": "Contact Us"
+    }
+  }
+}

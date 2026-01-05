@@ -1,0 +1,317 @@
+{
+  "common": {
+    "loading": "Lädt..."
+  },
+  "nav": {
+    "solutions": "Lösungen",
+    "portfolio": "Portfolio",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "faqs": "FAQs",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Next-Gen AI Integration",
+    "title": "Wir entwickeln",
+    "titleHighlight": "Digitale Intelligenz.",
+    "description": "Wir transformieren Unternehmen mit autonomen Agenten, Voice AI und maßgeschneiderten Software-Architekturen. Die Zukunft kommt nicht, wir programmieren sie.",
+    "ctaStart": "Automatisierung starten",
+    "ctaExplore": "Lösungen erkunden",
+    "agentStatus": "Agent-Status",
+    "onlineActive": "Online & Aktiv",
+    "optimization": "Optimierung",
+    "efficiency": "+420% Effizienz"
+  },
+  "features": {
+    "title": "Warum Sortask wählen?",
+    "subtitle": "Wir kombinieren modernste KI-Technologie mit bewährten Geschäftsstrategien, um Lösungen zu liefern, die funktionieren.",
+    "lightningFast": {
+      "title": "Blitzschnell",
+      "description": "KI-Lösungen in Wochen, nicht Monaten bereitstellen. Unser optimierter Prozess bringt Sie schneller von der Idee zur Produktion."
+    },
+    "enterpriseGrade": {
+      "title": "Unternehmensklasse",
+      "description": "Mit Sicherheit und Skalierbarkeit im Hinterkopf entwickelt. Ihre KI-Infrastruktur wächst mit Ihren Geschäftsanforderungen."
+    },
+    "provenResults": {
+      "title": "Bewährte Ergebnisse",
+      "description": "Durchschnittlich 10x ROI im ersten Jahr. Unsere Lösungen liefern messbare Geschäftsergebnisse ab dem ersten Tag."
+    },
+    "expertSupport": {
+      "title": "Experten-Support",
+      "description": "Dediziertes Team von KI-Ingenieuren und Beratern. Wir begleiten Sie jeden Schritt des Weges."
+    },
+    "cta": "Alle Lösungen erkunden"
+  },
+  "stats": {
+    "accuracyRate": "Genauigkeitsrate",
+    "automatedUptime": "Automatisierte Verfügbarkeit",
+    "roiAverage": "ROI-Durchschnitt"
+  },
+  "projects": {
+    "title": "Aktuelle Projekte",
+    "subtitle": "Sehen Sie unsere Technologie in Aktion.",
+    "cta": "Alle Projekte ansehen"
+  },
+  "testimonials": {
+    "quote": "Die Zukunft der KI besteht nicht darin, Menschen zu ersetzen, sondern sie zu erweitern. Es geht darum, intelligente Systeme zu schaffen, die gemeinsam mit Menschen arbeiten, um komplexe Probleme zu lösen und neue Möglichkeiten zu erschließen.",
+    "author": "Fei-Fei Li",
+    "role": "Co-Direktorin des Stanford Human-Centered AI Institute"
+  },
+  "contact": {
+    "title": "Bereit, Ihren Workflow zu verbessern?",
+    "subtitle": "Vereinbaren Sie eine kostenlose Beratung. Wir analysieren Ihren aktuellen Stack und identifizieren hochwirksame Möglichkeiten für KI-Automatisierung.",
+    "emailPlaceholder": "Geben Sie Ihre Geschäfts-E-Mail ein",
+    "cta": "Strategiegespräch buchen",
+    "disclaimer": "Keine Verpflichtung erforderlich. 14-Tage-Implementierungsgarantie."
+  },
+  "footer": {
+    "description": "Wir entwickeln die kognitive Schicht für moderne Unternehmen. Mit Sitz in Zürich, weltweit tätig.",
+    "platform": "Plattform",
+    "company": "Unternehmen",
+    "connect": "Kontakt",
+    "copyright": "© 2024 Sortask GmbH. Alle Rechte vorbehalten.",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "imprint": "Impressum",
+    "aiAgents": "AI-Agenten",
+    "voiceIntegration": "Voice-Integration",
+    "workflowAutomation": "Workflow-Automatisierung",
+    "about": "Über uns",
+    "portfolio": "Portfolio"
+  },
+  "solutions": {
+    "hero": {
+      "title": "Unsere",
+      "titleHighlight": "Lösungen",
+      "subtitle": "Wir schreiben nicht nur Code. Wir entwickeln intelligente Systeme, die skalieren, sprechen und komplexe Probleme autonom lösen."
+    },
+    "businessWebsites": {
+      "title": "Business-Websites",
+      "description": "Schöne, schnelle Websites, die auf jedem Gerät perfekt funktionieren. Aktualisieren Sie Inhalte einfach ohne technisches Wissen.",
+      "features": ["Mobile-freundliches Design", "Einfache Inhaltsaktualisierungen", "Schnelle Ladezeiten", "SEO-optimiert"]
+    },
+    "aiAssistants": {
+      "title": "KI-Assistenten",
+      "description": "Intelligente KI-Helfer, die Aufgaben automatisch erledigen. Sie können recherchieren, E-Mails senden, Meetings planen und rund um die Uhr arbeiten.",
+      "features": ["Läuft 24/7", "Bearbeitet repetitive Aufgaben", "Lernt und verbessert sich", "Spart Zeit und Geld"]
+    },
+    "voiceAssistants": {
+      "title": "Voice-Assistenten",
+      "description": "KI-Telefonassistenten, die natürlich klingen und Kundengespräche führen. Beantworten Sie Fragen, planen Sie Termine und bieten Sie Support.",
+      "features": ["Natürliche Gespräche", "Sofortige Antworten", "Verfügbar 24/7", "Reduziert Wartezeiten"]
+    },
+    "workflowAutomation": {
+      "title": "Workflow-Automatisierung",
+      "description": "Verbinden Sie Ihre Apps und automatisieren Sie tägliche Aufgaben. Keine manuelle Dateneingabe oder Wechsel zwischen Tools mehr.",
+      "features": ["Verbindet alle Ihre Apps", "Automatisiert repetitive Arbeit", "Spart täglich Stunden", "Reduziert Fehler"]
+    },
+    "smartChatbots": {
+      "title": "Intelligente Chatbots",
+      "description": "Chatbots, die Ihr Unternehmen kennen. Beantworten Sie Kundenfragen sofort mit Ihren Unternehmensinformationen.",
+      "features": ["Kennt Ihr Unternehmen", "Antwortet sofort", "Verfügbar 24/7", "Spricht mehrere Sprachen"]
+    },
+    "dataOrganization": {
+      "title": "Datenorganisation",
+      "description": "Verwandeln Sie chaotische Dateien und Dokumente in organisierte, durchsuchbare Informationen. Lassen Sie Ihre Daten für Sie arbeiten.",
+      "features": ["Organisiert Ihre Dateien", "Macht Daten durchsuchbar", "Findet Informationen schnell", "Bessere Entscheidungsfindung"]
+    },
+    "howItWorks": {
+      "title": "Wie es funktioniert",
+      "step1": {
+        "title": "Beratung",
+        "description": "Wir analysieren Ihre Bedürfnisse und identifizieren Möglichkeiten"
+      },
+      "step2": {
+        "title": "Design",
+        "description": "Wir entwickeln eine maßgeschneiderte Lösung für Ihr Unternehmen"
+      },
+      "step3": {
+        "title": "Entwicklung",
+        "description": "Wir entwickeln und testen die Lösung mit Ihrem Team"
+      },
+      "step4": {
+        "title": "Bereitstellung",
+        "description": "Wir stellen die Lösung bereit und überwachen sie kontinuierlich"
+      }
+    },
+    "cta": "Loslegen"
+  },
+  "about": {
+    "hero": {
+      "title": "Über",
+      "titleHighlight": "Sortask",
+      "subtitle": "Wir entwickeln die kognitive Schicht für moderne Unternehmen. Wir transformieren Unternehmen mit autonomen Agenten, Voice AI und maßgeschneiderten Software-Architekturen."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "p1": "Bei Sortask glauben wir, dass künstliche Intelligenz die menschliche Fähigkeit erweitern, nicht ersetzen sollte. Unsere Mission ist es, intelligente Systeme zu entwickeln, die Unternehmen dabei helfen, effizienter zu arbeiten, bessere Entscheidungen zu treffen und ohne Grenzen zu skalieren.",
+      "p2": "Mit Sitz in Zürich operieren wir weltweit und bringen modernste KI-Lösungen zu Unternehmen auf der ganzen Welt. Wir spezialisieren uns auf die Entwicklung autonomer Agenten, Voice-AI-Systeme und maßgeschneiderter Software-Architekturen, die die Art und Weise transformieren, wie Unternehmen arbeiten."
+    },
+    "vision": {
+      "title": "Unsere Vision",
+      "description": "Der führende Anbieter von KI-gestützten Automatisierungslösungen zu werden und jedem Unternehmen zu ermöglichen, die Kraft der künstlichen Intelligenz nahtlos und effektiv zu nutzen."
+    },
+    "values": {
+      "speed": {
+        "title": "Geschwindigkeit & Effizienz",
+        "description": "Wir liefern schnelle, effiziente KI-Lösungen, die nahtlos in Ihren Workflow integriert werden und den operativen Aufwand reduzieren."
+      },
+      "quality": {
+        "title": "Qualität zuerst",
+        "description": "Jede Lösung wird mit Präzision und Sorgfalt entwickelt und gewährleistet Zuverlässigkeit und Leistung, die die Erwartungen übertrifft."
+      },
+      "transparency": {
+        "title": "Transparenz",
+        "description": "Klare Kommunikation, ehrliche Preise und transparente Prozesse. Keine versteckten Gebühren, keine Überraschungen."
+      }
+    },
+    "team": {
+      "title": "Unser Team",
+      "ejon": {
+        "name": "Ejon Duka",
+        "role": "Mitgründer & CEO"
+      },
+      "kledi": {
+        "name": "Kledi Kallastra",
+        "role": "Mitgründer & CTO"
+      },
+      "avdyl": {
+        "name": "Avdyl Zogaj",
+        "role": "Mitgründer & COO"
+      }
+    }
+  },
+  "portfolio": {
+    "hero": {
+      "title": "Unser",
+      "titleHighlight": "Portfolio",
+      "subtitle": "Echte Projekte. Echte Ergebnisse. Unsere Top-Projekte, die unsere Expertise zeigen und messbare Ergebnisse liefern."
+    },
+    "technologies": {
+      "title": "Technologien & Fähigkeiten",
+      "subtitle": "Wir verwenden moderne Tools und Technologien, um schnelle, skalierbare und zuverlässige Lösungen für unsere Kunden zu entwickeln.",
+      "modernDevelopment": {
+        "title": "Moderne Entwicklung",
+        "description": "Next.js, React, TypeScript und modernste Frameworks"
+      },
+      "aiIntegration": {
+        "title": "KI-Integration",
+        "description": "OpenAI, benutzerdefinierte KI-Modelle und intelligente Automatisierung"
+      },
+      "responsiveDesign": {
+        "title": "Responsive Design",
+        "description": "Mobile-First-Ansatz, der auf allen Geräten funktioniert"
+      },
+      "securityPerformance": {
+        "title": "Sicherheit & Leistung",
+        "description": "Unternehmensklasse-Sicherheit und optimierte Leistung"
+      }
+    },
+    "cta": {
+      "title": "Bereit, ähnliche Ergebnisse für Ihr Unternehmen zu sehen?",
+      "subtitle": "Lassen Sie uns besprechen, wie wir Ihnen helfen können, Ihre Online-Präsenz zu transformieren und echtes Geschäftswachstum zu erzielen.",
+      "button": "Ihr Projekt starten"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Preise",
+      "subtitle": "Jedes Projekt ist einzigartig. Wir bieten maßgeschneiderte Lösungen, die auf Ihre spezifischen Bedürfnisse, Ziele und Ihr Budget zugeschnitten sind."
+    },
+    "card": {
+      "badge": "Individuelle Preise",
+      "description": "Wir bieten eine breite Palette von Dienstleistungen an, einschließlich Websites, KI-Assistenten, Chatbots, Automatisierung und mehr. Jedes Projekt ist anders, daher erstellen wir eine maßgeschneiderte Lösung, die genau zu Ihren Bedürfnissen passt.",
+      "includedTitle": "Was normalerweise enthalten ist:",
+      "features": [
+        "Maßgeschneiderte Lösung für Ihre Bedürfnisse",
+        "Modernes, responsives Design",
+        "KI-Integration und Automatisierung",
+        "SEO-Optimierung",
+        "Schnelles Laden und Leistung",
+        "Mobile-freundlich auf allen Geräten",
+        "Sicherheit und Datenschutz",
+        "Laufender Support und Wartung",
+        "Schulung und Dokumentation",
+        "Regelmäßige Updates und Verbesserungen"
+      ],
+      "ctaText": "Bereit loszulegen? Kontaktieren Sie uns für ein personalisiertes Angebot basierend auf Ihren spezifischen Anforderungen.",
+      "ctaButton": "Ihr individuelles Angebot erhalten"
+    },
+    "info": {
+      "title": "Warum individuelle Preise?",
+      "description": "Wir glauben nicht an Einheitslösungen. Ob Sie eine einfache Website, komplexe KI-Automatisierung oder eine Kombination von Dienstleistungen benötigen, wir arbeiten mit Ihnen zusammen, um ein Paket zu erstellen, das maximalen Wert für Ihre Investition bietet."
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Kontakt",
+      "titleHighlight": "aufnehmen",
+      "subtitle": "Bereit, Ihr Unternehmen mit KI zu transformieren? Lassen Sie uns besprechen, wie wir helfen können."
+    },
+    "form": {
+      "name": "Name *",
+      "company": "Unternehmen",
+      "email": "E-Mail *",
+      "phone": "Telefon",
+      "message": "Nachricht *",
+      "namePlaceholder": "Ihr Name",
+      "companyPlaceholder": "Ihr Unternehmen",
+      "emailPlaceholder": "ihre@email.com",
+      "phonePlaceholder": "+43 676 4414020",
+      "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt...",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "successMessage": "Vielen Dank für Ihre Nachricht! Wir werden uns bald bei Ihnen melden."
+    },
+    "sidebar": {
+      "quickCall": {
+        "title": "Schneller Anruf",
+        "description": "Vereinbaren Sie einen 15-minütigen Beratungsanruf, um Ihre KI-Automatisierungsbedürfnisse zu besprechen.",
+        "button": "Anruf planen"
+      },
+      "getInTouch": {
+        "title": "Kontakt aufnehmen",
+        "email": "E-Mail",
+        "phone": "Telefon"
+      }
+    }
+  },
+  "faqs": {
+    "hero": {
+      "title": "Häufig gestellte",
+      "titleHighlight": "Fragen",
+      "subtitle": "Finden Sie Antworten auf häufige Fragen zu unseren KI-Lösungen."
+    },
+    "items": [
+      {
+        "question": "Wie lange dauert es, eine KI-Lösung zu implementieren?",
+        "answer": "Die Implementierungszeit variiert je nach Komplexität. Einfache Automatisierungs-Workflows können in 2-4 Wochen bereitgestellt werden, während umfassende KI-Agenten-Systeme typischerweise 6-12 Wochen dauern. Wir bieten detaillierte Zeitpläne während unserer ersten Beratung."
+      },
+      {
+        "question": "Bieten Sie laufenden Support und Wartung?",
+        "answer": "Ja, wir bieten umfassende Support-Pakete einschließlich Überwachung, Updates und Wartung. Unser Enterprise-Plan umfasst 24/7-Überwachung und Prioritäts-Support, um sicherzustellen, dass Ihre KI-Lösungen reibungslos laufen."
+      },
+      {
+        "question": "Können KI-Agenten mit unseren bestehenden Systemen integriert werden?",
+        "answer": "Absolut. Unsere KI-Agenten sind darauf ausgelegt, nahtlos mit beliebten Geschäftstools und APIs zu integrieren. Wir können auch benutzerdefinierte Integrationen für proprietäre Systeme erstellen."
+      },
+      {
+        "question": "Wie sicher sind die von Ihren KI-Lösungen verarbeiteten Daten?",
+        "answer": "Sicherheit hat für uns oberste Priorität. Alle Daten werden während der Übertragung und im Ruhezustand verschlüsselt. Wir halten uns an die DSGVO und andere Datenschutzbestimmungen. Wir können Lösungen auch vor Ort bereitstellen, wenn erforderlich."
+      },
+      {
+        "question": "Welche Art von ROI können wir erwarten?",
+        "answer": "Unsere Kunden sehen typischerweise 5-10x ROI im ersten Jahr. Dies kommt von reduzierten Betriebskosten, erhöhter Effizienz und verbesserter Kundenzufriedenheit. Wir bieten detaillierte ROI-Prognosen während der Beratungsphase."
+      },
+      {
+        "question": "Bieten Sie Schulungen für unser Team an?",
+        "answer": "Ja, wir bieten umfassende Schulungen und Dokumentation, um sicherzustellen, dass Ihr Team die KI-Lösungen effektiv nutzen und verwalten kann. Schulungen sind in unserem Enterprise-Plan enthalten."
+      }
+    ],
+    "cta": {
+      "title": "Haben Sie noch Fragen?",
+      "description": "Können Sie nicht finden, wonach Sie suchen? Kontaktieren Sie unser Team.",
+      "button": "Kontaktieren Sie uns"
+    }
+  }
+}

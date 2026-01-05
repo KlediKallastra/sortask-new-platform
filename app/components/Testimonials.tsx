@@ -1,11 +1,12 @@
 'use client'
 
 import { useEffect, useRef } from 'react'
-import Image from 'next/image'
 import { Quote } from 'lucide-react'
+import { useTranslations } from '../../lib/i18n'
 
 export default function Testimonials() {
   const refs = useRef<(HTMLDivElement | null)[]>([])
+  const t = useTranslations().t
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -51,30 +52,19 @@ export default function Testimonials() {
           }}
           className="font-display text-2xl md:text-4xl font-medium leading-relaxed mb-8 reveal delay-100"
         >
-          &quot;Sortask transformed our manual customer support into a streamlined, AI-driven
-          powerhouse. We reduced response times by 85% in the first month.&quot;
+          &quot;{t('testimonials.quote')}&quot;
         </h3>
 
         <div
           ref={(el) => {
             refs.current[2] = el
           }}
-          className="flex items-center justify-center gap-4 reveal delay-200"
+          className="reveal delay-200"
         >
-          <Image
-            src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=200&auto=format&fit=crop"
-            alt="Client"
-            width={48}
-            height={48}
-            className="rounded-full border-2 border-tech-primary object-cover"
-          />
-          <div className="text-left">
-            <p className="text-white font-bold">David Chen</p>
-            <p className="text-tech-dim text-sm">CTO, Nexus Logistics</p>
-          </div>
+          <p className="text-white font-bold text-lg">{t('testimonials.author')}</p>
+          <p className="text-tech-dim text-sm">{t('testimonials.role')}</p>
         </div>
       </div>
     </section>
   )
 }
-

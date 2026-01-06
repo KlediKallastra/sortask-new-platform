@@ -7,6 +7,37 @@ export interface EmailData {
   phone?: string
   message: string
   language?: string
+  preferredDate?: string
+  preferredTime?: string
+}
+
+// Format time helper
+function formatTime(time: string): string {
+  const [hours, minutes] = time.split(':')
+  const hour = parseInt(hours)
+  const ampm = hour >= 12 ? 'PM' : 'AM'
+  const displayHour = hour % 12 || 12
+  return `${displayHour}:${minutes} ${ampm}`
+}
+
+// Format date helper - dd/MM/yyyy format
+function formatDate(dateString: string): string {
+  const date = new Date(dateString)
+  const day = String(date.getDate()).padStart(2, '0')
+  const month = String(date.getMonth() + 1).padStart(2, '0')
+  const year = date.getFullYear()
+  return `${day}/${month}/${year}`
+}
+
+// Format date for email display (full format)
+function formatDateFull(dateString: string): string {
+  const date = new Date(dateString)
+  return date.toLocaleDateString('en-US', {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  })
 }
 
 export async function sendEmail(data: EmailData) {
@@ -32,7 +63,7 @@ export async function sendEmail(data: EmailData) {
     from: `"${data.name}" <${process.env.EMAIL_USER || 'noreply@sortask.com'}>`,
     replyTo: data.email,
     to: process.env.EMAIL_TO || 'office@sortask.com',
-    subject: `New Contact Form Submission${data.company ? ` from ${data.company}` : ''}${data.language ? ` (${languageDisplay})` : ''}`,
+    subject: `${data.preferredDate && data.preferredTime ? 'Consultation Request' : 'New Contact Form Submission'}${data.company ? ` from ${data.company}` : ''}${data.language ? ` (${languageDisplay})` : ''}`,
     html: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
         <h2 style="color: #333; border-bottom: 2px solid #4F46E5; padding-bottom: 10px;">
@@ -45,6 +76,8 @@ export async function sendEmail(data: EmailData) {
           ${data.company ? `<p style="margin: 10px 0;"><strong>Company:</strong> ${data.company}</p>` : ''}
           ${data.phone ? `<p style="margin: 10px 0;"><strong>Phone:</strong> <a href="tel:${data.phone}">${data.phone}</a></p>` : ''}
           ${data.language ? `<p style="margin: 10px 0;"><strong>Language:</strong> ${languageDisplay} (${data.language.toUpperCase()})</p>` : ''}
+          ${data.preferredDate ? `<p style="margin: 10px 0;"><strong>Preferred Date:</strong> ${formatDateFull(data.preferredDate)} (${formatDate(data.preferredDate)})</p>` : ''}
+          ${data.preferredTime ? `<p style="margin: 10px 0;"><strong>Preferred Time:</strong> ${formatTime(data.preferredTime)}</p>` : ''}
         </div>
         
         <div style="background: #ffffff; padding: 20px; border-radius: 8px; border-left: 4px solid #4F46E5;">
@@ -66,6 +99,8 @@ Email: ${data.email}
 ${data.company ? `Company: ${data.company}` : ''}
 ${data.phone ? `Phone: ${data.phone}` : ''}
 ${data.language ? `Language: ${languageDisplay} (${data.language.toUpperCase()})` : ''}
+${data.preferredDate ? `Preferred Date: ${formatDateFull(data.preferredDate)} (${formatDate(data.preferredDate)})` : ''}
+${data.preferredTime ? `Preferred Time: ${formatTime(data.preferredTime)}` : ''}
 
 Message:
 ${data.message}

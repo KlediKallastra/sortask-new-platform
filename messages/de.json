@@ -51,7 +51,17 @@
   "projects": {
     "title": "Aktuelle Projekte",
     "subtitle": "Sehen Sie unsere Technologie in Aktion.",
-    "cta": "Alle Projekte ansehen"
+    "cta": "Alle Projekte ansehen",
+    "sorsend": {
+      "title": "Sorsend",
+      "category": "SaaS-Plattform",
+      "description": "Moderne SaaS-Plattform mit intelligenter Datenverarbeitung und KI-gestützten Erkenntnissen für Unternehmen."
+    },
+    "aiDeluxeHomes": {
+      "title": "AI Deluxe Homes",
+      "category": "Immobilien",
+      "description": "Premium-Immobilienplattform mit KI-gestütztem Immobilien-Matching und virtuellen Touren."
+    }
   },
   "testimonials": {
     "quote": "Die Zukunft der KI besteht nicht darin, Menschen zu ersetzen, sondern sie zu erweitern. Es geht darum, intelligente Systeme zu schaffen, die gemeinsam mit Menschen arbeiten, um komplexe Probleme zu lösen und neue Möglichkeiten zu erschließen.",
@@ -62,6 +72,9 @@
     "title": "Bereit, Ihren Workflow zu verbessern?",
     "subtitle": "Vereinbaren Sie eine kostenlose Beratung. Wir analysieren Ihren aktuellen Stack und identifizieren hochwirksame Möglichkeiten für KI-Automatisierung.",
     "emailPlaceholder": "Geben Sie Ihre Geschäfts-E-Mail ein",
+    "preferredDate": "Bevorzugtes Datum",
+    "preferredTime": "Bevorzugte Uhrzeit",
+    "selectTime": "Uhrzeit auswählen",
     "cta": "Strategiegespräch buchen",
     "disclaimer": "Keine Verpflichtung erforderlich. 14-Tage-Implementierungsgarantie."
   },
@@ -186,6 +199,29 @@
       "title": "Unser",
       "titleHighlight": "Portfolio",
       "subtitle": "Echte Projekte. Echte Ergebnisse. Unsere Top-Projekte, die unsere Expertise zeigen und messbare Ergebnisse liefern."
+    },
+    "projects": {
+      "sorsend": {
+        "title": "Sorsend",
+        "category": "SaaS-Plattform",
+        "description": "Moderne SaaS-Plattform mit intelligenter Datenverarbeitung und KI-gestützten Erkenntnissen für Unternehmen.",
+        "result": "↑ Nutzerengagement um 50% verbessert",
+        "status": "Live"
+      },
+      "aiDeluxeHomes": {
+        "title": "AI Deluxe Homes",
+        "category": "Immobilien",
+        "description": "Premium-Immobilienplattform mit KI-gestütztem Immobilien-Matching und virtuellen Touren.",
+        "result": "↑ Immobilienanfragen um 75% gestiegen",
+        "status": "Live"
+      },
+      "prestigeCarlusso": {
+        "title": "Prestige Carlusso",
+        "category": "Luxusmarke",
+        "description": "Elegante Luxusmarken-Website mit Premium-Produkten und anspruchsvollem Design.",
+        "result": "↑ Online-Verkäufe um 60% gestiegen",
+        "status": "Live"
+      }
     },
     "technologies": {
       "title": "Technologien & Fähigkeiten",
@@ -313,5 +349,89 @@
       "description": "Können Sie nicht finden, wonach Sie suchen? Kontaktieren Sie unser Team.",
       "button": "Kontaktieren Sie uns"
     }
+  },
+  "imprint": {
+    "title": "Impressum",
+    "companyInfo": {
+      "title": "Firmeninformationen",
+      "companyName": "Firmenname",
+      "address": "Adresse",
+      "postalCode": "Postleitzahl",
+      "city": "Stadt",
+      "country": "Land",
+      "countryValue": "Österreich",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "website": "Website"
+    },
+    "legalDetails": {
+      "title": "Rechtliche Angaben",
+      "registerNumber": "Handelsregisternummer",
+      "registerCourt": "Handelsregistergericht",
+      "vatId": "Umsatzsteuer-ID",
+      "ceo": "Geschäftsführer"
+    },
+    "disclaimer": {
+      "title": "Haftungsausschluss",
+      "text": "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
+    },
+    "copyright": {
+      "title": "Urheberrecht",
+      "text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers."
+    },
+    "contact": {
+      "title": "Kontakt",
+      "description": "Bei Fragen zu diesem Impressum kontaktieren Sie uns bitte:",
+      "email": "E-Mail",
+      "website": "Website"
+    },
+    "backToHome": "Zurück zur Startseite"
+  },
+  "cookiePolicy": {
+    "title": "Cookie-Richtlinie",
+    "introduction": {
+      "title": "Einführung",
+      "text": "Diese Cookie-Richtlinie erklärt, wie Sortask GmbH (\"wir\", \"uns\" oder \"unser\") Cookies und ähnliche Technologien auf unserer Website (sortask.com) verwendet, um Sie zu erkennen, wenn Sie unsere Website besuchen."
+    },
+    "whatAreCookies": {
+      "title": "Was sind Cookies?",
+      "text": "Cookies sind kleine Textdateien, die auf Ihrem Computer oder Mobilgerät gespeichert werden, wenn Sie eine Website besuchen. Sie werden häufig verwendet, um Websites effizienter zu machen und Informationen an die Website-Betreiber zu liefern."
+    },
+    "whyWeUse": {
+      "title": "Warum verwenden wir Cookies?",
+      "text": "Wir verwenden Cookies, um Ihr Browsing-Erlebnis zu verbessern, den Website-Traffic zu analysieren und Inhalte zu personalisieren. Cookies helfen uns:",
+      "items": [
+        "Ihre Präferenzen und Einstellungen zu speichern",
+        "Zu verstehen, wie Sie unsere Website nutzen",
+        "Die Funktionalität unserer Website zu verbessern",
+        "Personalisierte Inhalte und Werbung bereitzustellen"
+      ]
+    },
+    "types": {
+      "title": "Arten von Cookies",
+      "essential": {
+        "title": "Notwendige Cookies",
+        "text": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website erforderlich. Sie ermöglichen Kernfunktionen wie Sicherheit, Netzwerkverwaltung und Barrierefreiheit."
+      },
+      "performance": {
+        "title": "Leistungs-Cookies",
+        "text": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, indem sie Informationen anonym sammeln und melden."
+      },
+      "functionality": {
+        "title": "Funktions-Cookies",
+        "text": "Diese Cookies ermöglichen es der Website, sich an Ihre getroffenen Entscheidungen zu erinnern und erweiterte Funktionen und Personalisierung bereitzustellen."
+      }
+    },
+    "managing": {
+      "title": "Cookies verwalten",
+      "text": "Sie können Cookies auf verschiedene Weise steuern und verwalten. Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen oder zu akzeptieren. Sie können auch bereits gesetzte Cookies löschen. Bitte beachten Sie, dass das Deaktivieren von Cookies die Funktionalität unserer Website beeinträchtigen kann."
+    },
+    "contact": {
+      "title": "Kontaktieren Sie uns",
+      "text": "Wenn Sie Fragen zu unserer Verwendung von Cookies haben, kontaktieren Sie uns bitte:",
+      "email": "E-Mail",
+      "website": "Website"
+    },
+    "backToHome": "Zurück zur Startseite"
   }
 }

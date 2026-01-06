@@ -51,7 +51,17 @@
   "projects": {
     "title": "Recent Deployments",
     "subtitle": "See our technology in action.",
-    "cta": "View All Projects"
+    "cta": "View All Projects",
+    "sorsend": {
+      "title": "Sorsend",
+      "category": "SaaS Platform",
+      "description": "Modern SaaS platform with intelligent data processing and AI-powered insights for businesses."
+    },
+    "aiDeluxeHomes": {
+      "title": "AI Deluxe Homes",
+      "category": "Real Estate",
+      "description": "Premium real estate platform with AI-powered property matching and virtual tours."
+    }
   },
   "testimonials": {
     "quote": "The future of AI is not about replacing humans, but augmenting them. It's about creating intelligent systems that work alongside people to solve complex problems and unlock new possibilities.",
@@ -62,6 +72,9 @@
     "title": "Ready to upgrade your workflow?",
     "subtitle": "Schedule a free consultation. We'll analyze your current stack and identify high-impact opportunities for AI automation.",
     "emailPlaceholder": "Enter your work email",
+    "preferredDate": "Preferred Date",
+    "preferredTime": "Preferred Time",
+    "selectTime": "Select time",
     "cta": "Book Strategy Call",
     "disclaimer": "No commitment required. 14-day implementation guarantee."
   },
@@ -186,6 +199,29 @@
       "title": "Our",
       "titleHighlight": "Portfolio",
       "subtitle": "Real projects. Real results. Our top-rated projects that showcase our expertise and deliver measurable results."
+    },
+    "projects": {
+      "sorsend": {
+        "title": "Sorsend",
+        "category": "SaaS Platform",
+        "description": "Modern SaaS platform with intelligent data processing and AI-powered insights for businesses.",
+        "result": "↑ User engagement improved by 50%",
+        "status": "Live"
+      },
+      "aiDeluxeHomes": {
+        "title": "AI Deluxe Homes",
+        "category": "Real Estate",
+        "description": "Premium real estate platform with AI-powered property matching and virtual tours.",
+        "result": "↑ Property inquiries increased by 75%",
+        "status": "Live"
+      },
+      "prestigeCarlusso": {
+        "title": "Prestige Carlusso",
+        "category": "Luxury Brand",
+        "description": "Elegant luxury brand website showcasing premium products with sophisticated design.",
+        "result": "↑ Online sales increased by 60%",
+        "status": "Live"
+      }
     },
     "technologies": {
       "title": "Technologies & Capabilities",
@@ -313,5 +349,89 @@
       "description": "Can't find what you're looking for? Get in touch with our team.",
       "button": "Contact Us"
     }
+  },
+  "imprint": {
+    "title": "Imprint",
+    "companyInfo": {
+      "title": "Company Information",
+      "companyName": "Company Name",
+      "address": "Address",
+      "postalCode": "Postal Code",
+      "city": "City",
+      "country": "Country",
+      "countryValue": "Austria",
+      "phone": "Phone",
+      "email": "Email",
+      "website": "Website"
+    },
+    "legalDetails": {
+      "title": "Legal Details",
+      "registerNumber": "Commercial Register Number",
+      "registerCourt": "Commercial Register Court",
+      "vatId": "VAT ID",
+      "ceo": "CEO"
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "text": "Despite careful content control, we assume no liability for the content of external links. The operators of the linked pages are solely responsible for their content."
+    },
+    "copyright": {
+      "title": "Copyright",
+      "text": "The content and works created by the site operators on these pages are subject to copyright law. Duplication, processing, distribution, and any form of commercialization of such material beyond the scope of the copyright law shall require the prior written consent of its respective author or creator."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "For questions regarding this imprint, please contact us:",
+      "email": "Email",
+      "website": "Website"
+    },
+    "backToHome": "Back to Home"
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "introduction": {
+      "title": "Introduction",
+      "text": "This Cookie Policy explains how Sortask GmbH (\"we\", \"us\", or \"our\") uses cookies and similar technologies on our website (sortask.com) to recognize you when you visit our website."
+    },
+    "whatAreCookies": {
+      "title": "What Are Cookies?",
+      "text": "Cookies are small text files that are placed on your computer or mobile device when you visit a website. They are widely used to make websites work more efficiently and provide information to the website owners."
+    },
+    "whyWeUse": {
+      "title": "Why We Use Cookies",
+      "text": "We use cookies to enhance your browsing experience, analyze site traffic, and personalize content. Cookies help us:",
+      "items": [
+        "Remember your preferences and settings",
+        "Understand how you use our website",
+        "Improve our website's functionality",
+        "Provide personalized content and advertisements"
+      ]
+    },
+    "types": {
+      "title": "Types of Cookies",
+      "essential": {
+        "title": "Essential Cookies",
+        "text": "These cookies are necessary for the website to function properly. They enable core functionality such as security, network management, and accessibility."
+      },
+      "performance": {
+        "title": "Performance Cookies",
+        "text": "These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously."
+      },
+      "functionality": {
+        "title": "Functionality Cookies",
+        "text": "These cookies allow the website to remember choices you make and provide enhanced features and personalization."
+      }
+    },
+    "managing": {
+      "title": "Managing Cookies",
+      "text": "You can control and manage cookies in various ways. Most browsers allow you to refuse or accept cookies. You can also delete cookies that have already been set. Please note that disabling cookies may affect the functionality of our website."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "text": "If you have any questions about our use of cookies, please contact us:",
+      "email": "Email",
+      "website": "Website"
+    },
+    "backToHome": "Back to Home"
   }
 }

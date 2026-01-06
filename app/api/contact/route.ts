@@ -4,7 +4,7 @@ import { sendEmail, EmailData } from '../../../lib/email'
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
-    const { name, email, company, phone, message, language } = body
+    const { name, email, company, phone, message, language, preferredDate, preferredTime } = body
 
     // Validate required fields
     if (!name || !email || !message) {
@@ -31,6 +31,8 @@ export async function POST(request: NextRequest) {
       phone: phone?.trim(),
       message: message.trim(),
       language: language || 'en', // Default to English if not provided
+      preferredDate: preferredDate?.trim(),
+      preferredTime: preferredTime?.trim(),
     }
 
     // Send email

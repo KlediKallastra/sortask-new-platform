@@ -36,21 +36,19 @@ export default function Projects() {
   const projects = [
     {
       image: '/assets/website-examples/Sorsend.png',
-      category: 'SaaS Platform',
+      category: t('projects.sorsend.category'),
       categoryColor: 'text-tech-accent',
-      title: 'Sorsend',
-      description:
-        'Modern SaaS platform with intelligent data processing and AI-powered insights for businesses.',
+      title: t('projects.sorsend.title'),
+      description: t('projects.sorsend.description'),
       delay: '',
       link: 'https://sorsend.com',
     },
     {
       image: '/assets/website-examples/AI Deluxe Homes.png',
-      category: 'Real Estate',
+      category: t('projects.aiDeluxeHomes.category'),
       categoryColor: 'text-tech-secondary',
-      title: 'AI Deluxe Homes',
-      description:
-        'Premium real estate platform with AI-powered property matching and virtual tours.',
+      title: t('projects.aiDeluxeHomes.title'),
+      description: t('projects.aiDeluxeHomes.description'),
       delay: 'delay-100',
       link: 'https://ai-deluxe.homes',
     },

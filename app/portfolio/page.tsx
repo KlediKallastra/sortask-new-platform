@@ -44,37 +44,34 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: 'Sorsend',
-      category: 'SaaS Platform',
-      description:
-        'Modern SaaS platform with intelligent data processing and AI-powered insights for businesses.',
-      result: '↑ User engagement improved by 50%',
+      title: t('portfolio.projects.sorsend.title'),
+      category: t('portfolio.projects.sorsend.category'),
+      description: t('portfolio.projects.sorsend.description'),
+      result: t('portfolio.projects.sorsend.result'),
       gradient: 'from-purple-600 to-indigo-600',
       image: '/assets/website-examples/Sorsend.png',
       link: 'https://sorsend.com',
-      status: 'Live',
+      status: t('portfolio.projects.sorsend.status'),
     },
     {
-      title: 'AI Deluxe Homes',
-      category: 'Real Estate',
-      description:
-        'Premium real estate platform with AI-powered property matching and virtual tours.',
-      result: '↑ Property inquiries increased by 75%',
+      title: t('portfolio.projects.aiDeluxeHomes.title'),
+      category: t('portfolio.projects.aiDeluxeHomes.category'),
+      description: t('portfolio.projects.aiDeluxeHomes.description'),
+      result: t('portfolio.projects.aiDeluxeHomes.result'),
       gradient: 'from-blue-600 to-cyan-600',
       image: '/assets/website-examples/AI Deluxe Homes.png',
       link: 'https://ai-deluxe.homes',
-      status: 'Live',
+      status: t('portfolio.projects.aiDeluxeHomes.status'),
     },
     {
-      title: 'Prestige Carlusso',
-      category: 'Luxury Brand',
-      description:
-        'Elegant luxury brand website showcasing premium products with sophisticated design.',
-      result: '↑ Online sales increased by 60%',
+      title: t('portfolio.projects.prestigeCarlusso.title'),
+      category: t('portfolio.projects.prestigeCarlusso.category'),
+      description: t('portfolio.projects.prestigeCarlusso.description'),
+      result: t('portfolio.projects.prestigeCarlusso.result'),
       gradient: 'from-amber-600 to-orange-600',
       image: '/assets/website-examples/PrestigeCar Lusso.png',
       link: 'https://prestigecarlusso.com',
-      status: 'Live',
+      status: t('portfolio.projects.prestigeCarlusso.status'),
     },
   ]
 

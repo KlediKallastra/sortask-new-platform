@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import BackgroundGlows from '../components/BackgroundGlows'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
-import { Mail, Phone, Calendar, Check } from 'lucide-react'
+import { Mail, Phone, Calendar, Check, CheckCircle, XCircle } from 'lucide-react'
 import { useTranslations } from '../../lib/i18n'
 
 export default function Contact() {
@@ -16,6 +16,8 @@ export default function Contact() {
     message: '',
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+  const [errorMessage, setErrorMessage] = useState('')
   const refs = useRef<(HTMLDivElement | null)[]>([])
   const heroTitleRef = useRef<HTMLHeadingElement>(null)
   const heroDescRef = useRef<HTMLParagraphElement>(null)
@@ -51,6 +53,8 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
+    setSubmitStatus('idle')
+    setErrorMessage('')
 
     try {
       const response = await fetch('/api/contact', {
@@ -71,11 +75,21 @@ export default function Contact() {
       }
 
       // Success
-      alert(t('contactPage.form.successMessage'))
+      setSubmitStatus('success')
       setFormData({ name: '', company: '', email: '', phone: '', message: '' })
+      // Reset success message after 5 seconds
+      setTimeout(() => {
+        setSubmitStatus('idle')
+      }, 5000)
     } catch (error) {
       console.error('Error submitting form:', error)
-      alert(error instanceof Error ? error.message : 'Failed to send message. Please try again.')
+      setSubmitStatus('error')
+      setErrorMessage(error instanceof Error ? error.message : 'Failed to send message. Please try again.')
+      // Reset error message after 5 seconds
+      setTimeout(() => {
+        setSubmitStatus('idle')
+        setErrorMessage('')
+      }, 5000)
     } finally {
       setIsSubmitting(false)
     }
@@ -199,6 +213,30 @@ export default function Contact() {
                   >
                     {isSubmitting ? t('contactPage.form.sending') : t('contactPage.form.submit')}
                   </button>
+
+                  {/* Success Message */}
+                  {submitStatus === 'success' && (
+                    <div className="mt-4 p-4 rounded-lg bg-green-500/10 border border-green-500/20 flex items-start gap-3">
+                      <CheckCircle className="w-5 h-5 text-green-400 flex-shrink-0 mt-0.5" />
+                      <div className="flex-1">
+                        <p className="text-sm text-green-400 font-medium">
+                          {t('contactPage.form.successMessage')}
+                        </p>
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Error Message */}
+                  {submitStatus === 'error' && (
+                    <div className="mt-4 p-4 rounded-lg bg-red-500/10 border border-red-500/20 flex items-start gap-3">
+                      <XCircle className="w-5 h-5 text-red-400 flex-shrink-0 mt-0.5" />
+                      <div className="flex-1">
+                        <p className="text-sm text-red-400 font-medium">
+                          {errorMessage || 'Failed to send message. Please try again.'}
+                        </p>
+                      </div>
+                    </div>
+                  )}
                 </form>
               </div>
             </div>

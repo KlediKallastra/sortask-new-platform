@@ -43,7 +43,6 @@ export default function Hero() {
           className="object-cover opacity-60"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-tech-bg/80 to-tech-bg"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">

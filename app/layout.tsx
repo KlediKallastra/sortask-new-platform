@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Space_Grotesk, Inter } from 'next/font/google'
 import './globals.css'
 import { I18nProvider } from '../lib/i18n'
@@ -17,12 +17,12 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sortask.com'), // Update with your actual domain
+  metadataBase: new URL('https://sortask.com'),
   title: {
     default: 'Sortask GmbH | Future-Ready AI & Web Solutions',
     template: '%s | Sortask GmbH',
   },
-  description: 'Transforming businesses with autonomous agents, voice AI, and custom software architectures. Based in Zurich, operating globally.',
+  description: 'Transforming businesses with autonomous agents, voice AI, and custom software architectures. Based in Graz, Austria, operating globally. Expert AI automation, web development, and intelligent business solutions.',
   keywords: [
     'AI solutions',
     'autonomous agents',
@@ -32,30 +32,52 @@ export const metadata: Metadata = {
     'AI assistants',
     'chatbots',
     'workflow automation',
-    'Zurich',
-    'Switzerland',
+    'custom software',
+    'AI consulting',
+    'machine learning',
+    'artificial intelligence',
+    'digital transformation',
+    'Graz',
+    'Austria',
+    'Europe',
+    'enterprise AI',
+    'AI integration',
+    'software development',
+    'headless CMS',
+    'modern web applications',
   ],
   authors: [{ name: 'Sortask GmbH' }],
   creator: 'Sortask GmbH',
   publisher: 'Sortask GmbH',
+  applicationName: 'Sortask',
+  referrer: 'origin-when-cross-origin',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
+  alternates: {
+    canonical: 'https://sortask.com',
+    languages: {
+      'en': 'https://sortask.com',
+      'de': 'https://sortask.com',
+    },
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
+    alternateLocale: ['de_AT'],
     url: 'https://sortask.com',
     siteName: 'Sortask GmbH',
     title: 'Sortask GmbH | Future-Ready AI & Web Solutions',
-    description: 'Transforming businesses with autonomous agents, voice AI, and custom software architectures.',
+    description: 'Transforming businesses with autonomous agents, voice AI, and custom software architectures. Expert AI automation and web development services.',
     images: [
       {
-        url: '/og-image.jpg', // You should add an Open Graph image
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Sortask GmbH',
+        alt: 'Sortask GmbH - AI & Web Solutions',
+        type: 'image/jpeg',
       },
     ],
   },
@@ -63,7 +85,9 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Sortask GmbH | Future-Ready AI & Web Solutions',
     description: 'Transforming businesses with autonomous agents, voice AI, and custom software architectures.',
-    images: ['/og-image.jpg'], // You should add a Twitter image
+    images: ['/og-image.jpg'],
+    creator: '@sortask',
+    site: '@sortask',
   },
   robots: {
     index: true,
@@ -76,10 +100,33 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    // Add your Google Search Console verification code here when available
-    // google: 'your-verification-code',
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    apple: [
+      { url: '/apple-icon.svg', sizes: '180x180', type: 'image/svg+xml' },
+    ],
+    shortcut: '/favicon.ico',
   },
+  manifest: '/manifest.json',
+  category: 'technology',
+  classification: 'Business Technology Solutions',
+  other: {
+    'mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-capable': 'yes',
+    'apple-mobile-web-app-status-bar-style': 'black-translucent',
+    'apple-mobile-web-app-title': 'Sortask',
+  },
+}
+
+export const viewport: Viewport = {
+  colorScheme: 'dark',
+  themeColor: [
+    { media: '(prefers-color-scheme: dark)', color: '#0F172A' },
+    { media: '(prefers-color-scheme: light)', color: '#0F172A' },
+  ],
 }
 
 export default function RootLayout({

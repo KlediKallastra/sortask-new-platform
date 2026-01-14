@@ -3,26 +3,35 @@ export default function StructuredData() {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Sortask GmbH',
+    legalName: 'Sortask GmbH',
     url: 'https://sortask.com',
-    logo: 'https://sortask.com/logo.png', // Update with your actual logo URL
-    description: 'Transforming businesses with autonomous agents, voice AI, and custom software architectures.',
+    logo: 'https://sortask.com/icon.svg',
+    description: 'Transforming businesses with autonomous agents, voice AI, and custom software architectures. Expert AI automation and web development services.',
+    foundingDate: '2024',
     address: {
       '@type': 'PostalAddress',
-      addressLocality: 'Zurich',
-      addressCountry: 'CH',
+      streetAddress: 'Münzgrabenstraße 44/12',
+      addressLocality: 'Graz',
+      postalCode: '8010',
+      addressRegion: 'Styria',
+      addressCountry: 'AT',
     },
-    sameAs: [
-      // Add your social media profiles here
-      // 'https://twitter.com/sortask',
-      // 'https://linkedin.com/company/sortask',
-      // 'https://github.com/sortask',
-    ],
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+43-676-4414020',
       contactType: 'Customer Service',
       email: 'office@sortask.com',
+      areaServed: 'Worldwide',
+      availableLanguage: ['en', 'de'],
     },
+    sameAs: [
+      // Add your social media profiles here when available
+      // 'https://twitter.com/sortask',
+      // 'https://linkedin.com/company/sortask',
+      // 'https://github.com/sortask',
+    ],
+    taxID: 'ATU82037804',
+    vatID: 'ATU82037804',
   }
 
   const websiteSchema = {

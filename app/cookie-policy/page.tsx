@@ -68,9 +68,12 @@ export default function CookiePolicy() {
                 {t('cookiePolicy.whyWeUse.text')}
               </p>
               <ul className="list-disc ml-6 space-y-2 text-tech-dim">
-                {(t('cookiePolicy.whyWeUse.items', { returnObjects: true }) as string[]).map((item, index) => (
-                  <li key={index}>{item}</li>
-                ))}
+                {(() => {
+                  const items = t('cookiePolicy.whyWeUse.items')
+                  return Array.isArray(items) ? (items as string[]).map((item, index) => (
+                    <li key={index}>{item}</li>
+                  )) : null
+                })()}
               </ul>
             </section>
 
